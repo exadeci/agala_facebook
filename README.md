@@ -10,7 +10,7 @@ by adding `agala_fb` to your list of dependencies in `mix.exs`:
 ```elixir
 def deps do
   [
-    {:agala_fb, "~> 0.1.0"}
+    {:agala_facebook, "~> 3.0.0"}
   ]
 end
 ```
