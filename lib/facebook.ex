@@ -6,4 +6,5 @@ defmodule Agala.Provider.Facebook do
 
   defmacro __using__(:handler) do
   end
+  def get_bot(:plug), do: Agala.Provider.Facebook.Plug
 end
